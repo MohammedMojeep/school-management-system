@@ -1,0 +1,16 @@
+@import '@fontsource/cairo';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Cairo', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --color-primary: #2b3341; /* Dark Sidebar */
+    --color-secondary: #f4f6f9; /* Light Background */
+    --color-accent: #7CB342; /* Soft Green */
+}
